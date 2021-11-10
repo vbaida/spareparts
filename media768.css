@@ -14,4 +14,10 @@
         margin-top: 10px;
         display: flex;
     }
+    .navbar {
+        margin-left: -54px;
+    }
+    .btn {
+        margin-left: 10px;
+    }
 }
