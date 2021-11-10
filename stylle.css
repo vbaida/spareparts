@@ -1,7 +1,47 @@
 .header {
-    width: 1920px;
+    background: #0F2438;
 }
 .container {
     width: 100%;
     background: grey;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
 }
+.header_menu_left {
+    display: flex;
+
+}
+.nav-link, .btn, .navbar-brand {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.compas  {
+    width: 20px;
+    height: 30px;
+}
+.compas img {
+    width: 20px;
+    margin-left: -12px;
+    margin-top: 9px;
+}
+.compas1 img {
+    width: 13px;
+    margin-top: -66px;
+    margin-left: -8px;
+}
+
+.btn-primary {
+    color: #fff;
+    background: none;
+    border-color: grey;
+    background-color: none;
+}
+.header_menu_right1 {
+display: none;
+}
+
+

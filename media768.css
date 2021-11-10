@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+
+    .header_menu_right {
+        display: none;
+    }
+    .navbar-nav {
+        display: flex;
+        padding-left: 0;
+        margin-bottom: 10px;
+        list-style: none;
+        flex-direction: row
+    }
+    .header_menu_right1 {
+        margin-top: 10px;
+        display: flex;
+    }
+}
