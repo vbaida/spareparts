@@ -3,48 +3,153 @@
 }
 .container {
     width: 100%;
-    background: grey;
+    background: #0F2438;
     height: 100%;
     display: flex;
     justify-content: space-between;
-
-}
-.header_menu_left {
+  padding-left: 0;
+    padding-right: 0;
+    }
+.container1 {
     display: flex;
-
 }
+.container1 img {
+    width: 22px;
+    height: 22px;
+    margin-top: 13px;
+}
+
 .nav-link, .btn, .navbar-brand {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
 }
-.compas  {
-    width: 20px;
-    height: 30px;
-}
-.compas img {
-    width: 20px;
-    margin-left: -12px;
-    margin-top: 9px;
-}
-.compas1 img {
-    width: 13px;
-    margin-top: -66px;
-    margin-left: -8px;
-}
 
 .btn-primary {
     color: #fff;
     background: none;
     border-color: grey;
-    background-color: none;
+
 }
 .header_menu_right1 {
 display: none;
 }
 .header_menu_right2 {
 display: none;
+}
+
+.header_kontakt_logo {
+    display: flex;
+    background: white;
+    align-items: center;
+    width: 100%;
+    column-gap: 54px;
+}
+.logo img {
+    width: 66px;
+    height: 71px;
+}
+.logo {
+    display: flex;
+}
+.logo h1 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+}
+.logo p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+}
+.logo1 {
+    margin-top: 11px;
+}
+.time {
+    display: flex;
+    width: 267px;
+    align-items: center;
+}
+.time img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 10px;
+}
+.time p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #0F2438;
+    margin-top: 12px;
+}
+.adres {
+    display: flex;
+    margin-top: -13px;
+}
+
+.adres p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+}
+.wahtsapp {
+    width: 204px;
+    height: 30px;
+    background: #E1EFD0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -9px;
+}
+.wahtsapp p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #000000;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone h1 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+}
+.phone p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+    color: #0F2438;
+    margin-top: -10px;
+}
+.buttom {
+    display: flex;
+    width: 100%;
+    background: white;
+}
+.katalog {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: blue;
+    width: 164px;
+    height: 53px;
+}
+.line {
+    width: 33px;
+    height: 5px;
+    background-color: white;
 }
 
 
