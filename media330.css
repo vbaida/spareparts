@@ -1,6 +1,12 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 490px) {
 
     .header_menu_right {
+        display: none;
+    }
+    .header_menu_right1 {
+        display: none;
+    }
+    .btn-group {
         display: none;
     }
     .navbar-nav {
