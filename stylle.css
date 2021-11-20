@@ -1,15 +1,21 @@
 .header {
-    background: #0F2438;
+    background: #ffffff;
 }
 .container {
     width: 100%;
-    background: #0F2438;
+    background: #ffffff;
     height: 100%;
     display: flex;
     justify-content: space-between;
   padding-left: 0;
     padding-right: 0;
     }
+.container_bacground {
+         display: flex;
+         width: 100%;
+         justify-content: space-between;
+         background: #0F2438;
+     }
 .container1 {
     display: flex;
 }
@@ -217,8 +223,11 @@ display: none;
 }
 .chevron img {
    top: 337px;
-    position: absolute;
-}
+    }
+.chevron1 img {
+   top: 337px;
+    margin-left: -116px;
+    }
 .tekst__clutch {
     display: flex;
     align-items: center;
@@ -263,8 +272,19 @@ display: none;
 }
 .cart img {
     position: relative;
-
 }
+
+.photo__bacground2 {
+    width: 336px;
+    height: 190px;
+    background: #F4F5FA;
+    border-radius: 20px;
+}
+.photo__bacground {
+    width: 1000px;
+}
+
+
 
 
 
