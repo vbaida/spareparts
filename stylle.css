@@ -209,6 +209,62 @@ display: none;
     height: 53px;
     margin-left: 20px;
 }
+.photo__bacground img {
+    position: absolute;
+}
+.clutch  img{
+     position: relative;
+}
+.chevron img {
+   top: 337px;
+    position: absolute;
+}
+.tekst__clutch {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    column-gap: 100px;
+}
+
+.tekst h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+    position: relative;
+}
+.tekst h3 {
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #717171;
+    position: relative;
+}
+.tekst h1 {
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+    position: relative;
+    margin-top: 20px;
+}
+.cart {
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: blue;
+    width: 160px;
+    height: 49px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cart img {
+    position: relative;
+    background-image: white;
+}
 
 
 
