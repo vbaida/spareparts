@@ -164,7 +164,7 @@ display: none;
     line-height: 21px;
     color: #FFFFFF;
     background: blue;
-    width: 164px;
+    width: 120px;
     height: 53px;
     display: flex;
     justify-content: space-evenly;
@@ -185,7 +185,7 @@ display: none;
 .button2 {
     display: flex;
     column-gap: 20px;
-    margin-left: 50px;
+    margin-left: 80px;
 
 }
 .come {
