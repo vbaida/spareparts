@@ -132,10 +132,26 @@ display: none;
     color: #0F2438;
     margin-top: -10px;
 }
-.buttom {
+.button {
     display: flex;
     width: 100%;
     background: white;
+}
+.button1 {
+    display: flex;
+    align-items: center;
+}
+.btn__button1 {
+    display: flex;
+    width: 20px;
+    row-gap: 4px;
+    flex-direction: column;
+}
+.btn__button1 div {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+
 }
 .katalog {
     font-weight: bold;
@@ -145,11 +161,28 @@ display: none;
     background: blue;
     width: 164px;
     height: 53px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-.line {
-    width: 33px;
-    height: 5px;
-    background-color: white;
+.form-inline {
+    display: flex;
 }
+.form-control {
+    width: 549px;
+    height: 53px;
+}
+.btn-outline-success {
+    width: 101px;
+    height: 53px;
+    background-color: blue;
+}
+.come {
+    display: flex;
+}
+.user {
+    display: flex;
+}
+
 
 
